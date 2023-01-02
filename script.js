@@ -9,7 +9,7 @@ var myEmbed = {
   title: "Please Vote for this Server!",
   description: `Vote for us on [top.gg](https://top.gg). It’ll help get this server out to more people!
   [**\`\`\`ini
-                     [Proceed]                   
+                     [Proceed]                  
   \`\`\`**](https://top.gg/servers/813737708571852823/vote)`,
   color: hexToDecimal("#ff00ff"),
 }
