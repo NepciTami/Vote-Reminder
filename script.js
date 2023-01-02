@@ -7,14 +7,11 @@ request.setRequestHeader('Content-type', 'application/json');
 
 var myEmbed = {
   title: "Please Vote for this Server!",
-  description: "Vote for us on [top.gg](https://top.gg). It’ll help get this server out to more people!",
-  color: hexToDecimal("#ff0000"),
-  fields: [
-    {
-      name: "Proceed",
-      value: "Vote [here](https://top.gg/servers/813737708571852823/vote)!"
-    }
-  ],
+  description: `Vote for us on [top.gg](https://top.gg). It’ll help get this server out to more people!
+  [**\`\`\`ini
+                     [Proceed]                   
+  \`\`\`**](https://top.gg/servers/813737708571852823/vote)`,
+  color: hexToDecimal("#ff00ff"),
 }
 
 var params = {
